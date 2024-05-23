@@ -11,3 +11,8 @@ const tip1 = calcTip(bill1);
 const total1 = bill1 + tip1;
 console.log(`The bill was $${bill1}, the tip was $${tip1}, and the total value $${total1}.`);
 
+//Develop a function named calcTip that accepts any bill amount as an input and returns the calculated tip, following the specified rules. Test this function with a bill value of $100.
+const bill2 = 100;
+console.log(`For a bill of $${bill2}, the tip would be $${calcTip(bill2)}.`);
+
+
